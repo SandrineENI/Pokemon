@@ -1,9 +1,8 @@
 <h1>{{titre}}</h1>
-<div>{{g1}}</div>
-<div>{{g2}}</div>
-<div>{{g3}}</div>
-<div>{{g4}}</div>
-<div>{{g5}}</div>
-<div>{{g6}}</div>
-<div>{{g7}}</div>
+<ul>
+    @for (generation of generations; track $index) {
+    <li>{{ generation }}</li>
+    }
+  </ul>
+  
 
