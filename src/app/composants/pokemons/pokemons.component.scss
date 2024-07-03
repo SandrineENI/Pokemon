@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    top: 0;
+}
+h1
+{
+    @apply text-white text-4xl flex justify-center p-4 bg-gradient-to-b from-blue-800
+    to-blue-100;
+}
+
+h2{
+   @apply font-semibold;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carte{
+ display: flex;
+ border-width: 1px;
+ width: 30vw;
+ margin-bottom: 10%;
+ flex-direction: column;
+ align-items:flex-start;
+}

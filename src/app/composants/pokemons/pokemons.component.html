@@ -1,0 +1,17 @@
+<h1>{{titre}}</h1>
+
+<p>{{sousTitre}}</p>
+
+
+<div>
+    <a *ngFor="let chaque_pokemon of pokemons">
+        <h2> {{chaque_pokemon.nom}} </h2>
+        <div class="carte"> 
+            <p >Catégorie : {{chaque_pokemon.categorie}}</p>
+            <p>Type : {{chaque_pokemon.type}}</p>
+            <p>Taille : {{chaque_pokemon.taille}}</p>
+            <p>Poids : {{chaque_pokemon.poids}}</p>
+        </div>
+
+    </a>
+</div>
